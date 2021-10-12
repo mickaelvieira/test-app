@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: stretch    
+    container: debian:stretch    
     steps:
       - uses: actions/checkout@v2
 
