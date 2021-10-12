@@ -15,18 +15,18 @@ export const pages: PageDefinition[] = [
     component: A,
     icon: 'file-alt',
     id: 'a',
-    text: 'Tab A',
+    text: 'Tab Page A',
   },
   {
     component: B,
     icon: 'file-alt',
     id: 'b',
-    text: 'Tab B',
+    text: 'Tab Page A',
   },
   {
     component: C,
     icon: 'file-alt',
     id: 'c',
-    text: 'Tab C',
+    text: 'Tab Page A',
   },
 ];
