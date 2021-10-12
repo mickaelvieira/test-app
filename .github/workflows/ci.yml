@@ -10,16 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        include:
-          - arch: aarch64
-            distro: stretch
-          - arch: aarch64
-            distro: bullseye
-          - arch: aarch64
-            distro: buster
-            
+    container: stretch    
     steps:
       - uses: actions/checkout@v2
 
